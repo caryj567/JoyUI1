@@ -8,7 +8,7 @@ ReactDOM.createRoot(document.querySelector("#root")!).render(
     <StyledEngineProvider injectFirst>
       <CssVarsProvider>
         <Demo />
-       
+         <Center />
       </CssVarsProvider>
     </StyledEngineProvider>
   </React.StrictMode>
