@@ -8,6 +8,7 @@ ReactDOM.createRoot(document.querySelector("#root")!).render(
     <StyledEngineProvider injectFirst>
       <CssVarsProvider>
         <Demo />
+        <Sheet variant="outlined">Hello world</Sheet>
       </CssVarsProvider>
     </StyledEngineProvider>
   </React.StrictMode>
