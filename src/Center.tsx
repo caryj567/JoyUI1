@@ -1,6 +1,7 @@
 import * as React from 'react';
 import Button from '@mui/joy/Button';
 import Box from '@mui/joy/Box';
+import Sheet from '@mui/joy/Sheet';
 
 import FormControl from '@mui/joy/FormControl';
 import FormLabel from '@mui/joy/FormLabel';
