@@ -11,6 +11,6 @@ import Input from '@mui/joy/Input'
 export default function BasicButtons() 
 {
     return (<Sheet color="neutral" variant="outlined">
-        <p>Holy sheet!</p>
+        <p color="green">Holy sheet!</p>
     </Sheet>);
 }
