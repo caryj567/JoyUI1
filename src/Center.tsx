@@ -14,7 +14,7 @@ export default function BasicButtons()
     return (
     
         <Box >
-            <Sheet color="primary" variant="soft" alignItems="center" sx={{width: 350, mx:auto}}>
+            <Sheet color="primary" variant="soft" alignItems="center" sx={{width: 350}}>
                 <Typography level="h1">Create Team</Typography>
                 <FormControl id="Id" required size="sm" color="primary">
                     
