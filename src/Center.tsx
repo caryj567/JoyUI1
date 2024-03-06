@@ -12,7 +12,7 @@ import Input from '@mui/joy/Input'
 export default function BasicButtons() 
 {
     return (
-    <Sheet color="neutral" variant="outlined">
+    <Sheet color="neutral" variant="soft">
         <Typography>Create Team</Typography>
     </Sheet>);
 }
