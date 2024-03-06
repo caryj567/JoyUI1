@@ -14,5 +14,29 @@ export default function BasicButtons()
     return (
     <Sheet color="primary" variant="soft" justifyContent="center" sx={{maxWidth: 400}}>
         <Typography justifyContent="center">Create Team</Typography>
+        <Box>
+      <FormControl
+        id="Id"
+        required
+        size="sm"
+        color="primary">
+        <FormLabel>
+          Label
+        </FormLabel>
+        <Input
+          placeholder="Placeholder"
+          name="Name"
+          type="tel"
+          autoComplete="on"
+          autoFocus
+          error
+          fullWidth
+          defaultValue="DefaultValue"
+          variant="outlined" />
+        <FormHelperText>
+          Help!
+        </FormHelperText>
+      </FormControl>
+    </Box>
     </Sheet>);
 }
