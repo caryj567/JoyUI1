@@ -14,29 +14,22 @@ export default function BasicButtons()
     return (
     
         <Box>
-        <Sheet>
-      <FormControl
-        id="Id"
-        required
-        size="sm"
-        color="primary">
-        <FormLabel>
-          Label
-        </FormLabel>
-        <Input
-          placeholder="Placeholder"
-          name="Name"
-          type="tel"
-          autoComplete="on"
-          autoFocus
-          error
-          fullWidth
-          defaultValue="DefaultValue"
-          variant="outlined" />
-        <FormHelperText>
-          Help!
-        </FormHelperText>
-      </FormControl>
+            <Sheet>
+                <Typography>Fuck you</Typography>
+              <FormControl id="Id" required size="sm" color="primary">
+                <FormLabel>Label</FormLabel>
+                <Input
+                  placeholder="Placeholder"
+                  name="Name"
+                  type="tel"
+                  autoComplete="on"
+                  autoFocus
+                  error
+                  fullWidth
+                  defaultValue="DefaultValue"
+                  variant="outlined" />
+                <FormHelperText>Help!</FormHelperText>
+              </FormControl>
             </Sheet>
         </Box>
     
