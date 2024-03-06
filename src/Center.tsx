@@ -28,7 +28,7 @@ export default function BasicButtons()
                       fullWidth
                       defaultValue="Team name here"
                       variant="outlined" />
-                    <FormHelperText>Help!</FormHelperText>
+                    {/*<FormHelperText>Help!</FormHelperText>*/}
                   </FormControl>
                 <Button>Create</Button>
             </Sheet>
