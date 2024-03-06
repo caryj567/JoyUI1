@@ -26,10 +26,11 @@ export default function BasicButtons()
                       autoFocus
                       error
                       fullWidth
-                      defaultValue="DefaultValue"
+                      defaultValue="Team name here"
                       variant="outlined" />
                     <FormHelperText>Help!</FormHelperText>
                   </FormControl>
+                <Button>Create</Button>
             </Sheet>
         </Box>
     
