@@ -13,6 +13,6 @@ export default function BasicButtons()
 {
     return (
     <Sheet color="primary" variant="soft" sx={{maxWidth: 400}}>
-        <Typography>Create Team</Typography>
+        <Typography justifyContent="center">Create Team</Typography>
     </Sheet>);
 }
