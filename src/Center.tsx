@@ -14,7 +14,6 @@ export default function BasicButtons()
     return (
     <Sheet color="primary" variant="soft" justifyContent="center" sx={{maxWidth: 400}}>
         <Typography justifyContent="center">Create Team</Typography>
-        <Box>
       <FormControl
         id="Id"
         required
@@ -37,6 +36,5 @@ export default function BasicButtons()
           Help!
         </FormHelperText>
       </FormControl>
-    </Box>
     </Sheet>);
 }
