@@ -15,7 +15,7 @@ export default function BasicButtons()
     
         <Box >
             <Sheet color="primary" variant="soft" sx={{width: 350, mx:"auto", my:"auto"}}>
-                <Typography level="h1" sx={{mx:"auto", py:10}}>Create Team</Typography>
+                <Typography level="h1" sx={{mx:"auto", py:2}}>Create Team</Typography>
                 <FormControl id="Id" required size="sm" color="primary">
                     
                     <Input
