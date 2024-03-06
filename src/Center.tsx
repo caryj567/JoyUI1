@@ -13,11 +13,11 @@ export default function BasicButtons()
 {
     return (
     
-        <Box alignItems="center">
-            <Sheet color="primary" variant="soft" sx={{width: 500}}>
-                <Typography>Fuck you</Typography>
+        <Box >
+            <Sheet color="primary" variant="soft" sx={{width: 350}}>
+                <Typography level="h1">Create Team</Typography>
                 <FormControl id="Id" required size="sm" color="primary">
-                    <FormLabel>Label</FormLabel>
+                    
                     <Input
                       placeholder="Placeholder"
                       name="Name"
