@@ -30,7 +30,7 @@ export default function BasicButtons()
                       variant="outlined" />
                     {/*<FormHelperText>Help!</FormHelperText>*/}
                   </FormControl>
-                <Button>Create</Button>
+                <Button sx={{width:300, mx:"auto"}}>Create</Button>
             </Sheet>
         </Box>
     
