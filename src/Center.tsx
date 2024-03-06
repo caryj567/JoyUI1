@@ -12,7 +12,7 @@ import Input from '@mui/joy/Input'
 export default function BasicButtons() 
 {
     return (
-    <Sheet color="primary" variant="soft" justifyContent="center" sx={{maxWidth: 400}}>
+    
         <Box>
         
       <FormControl
@@ -38,5 +38,6 @@ export default function BasicButtons()
         </FormHelperText>
       </FormControl>
         </Box>
-    </Sheet>);
+    
+        );
 }
