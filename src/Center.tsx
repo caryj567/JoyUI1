@@ -14,7 +14,7 @@ export default function BasicButtons()
     return (
     
         <Box>
-        <Sheet>Fuck you</Sheet>
+        <Sheet>
       <FormControl
         id="Id"
         required
@@ -37,6 +37,7 @@ export default function BasicButtons()
           Help!
         </FormHelperText>
       </FormControl>
+            </Sheet>
         </Box>
     
         );
