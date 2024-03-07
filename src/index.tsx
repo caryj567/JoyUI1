@@ -11,6 +11,7 @@ ReactDOM.createRoot(document.querySelector("#root")!).render(
       <CssVarsProvider>
         {/*<Demo />*/}
          <Center />
+        <StepsSlider />
       </CssVarsProvider>
     </StyledEngineProvider>
   </React.StrictMode>
