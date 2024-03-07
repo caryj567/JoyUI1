@@ -19,14 +19,14 @@ export default function BasicButtons()
                 <FormControl id="Id" required size="sm" color="primary">
                     
                     <Input
-                      placeholder="Placeholder"
+                      placeholder="Team name here"
                       name="Name"
                       type="tel"
                       autoComplete="on"
                       autoFocus
                       error
                       fullWidth
-                      defaultValue="Team name here"
+                      defaultValue=""
                       variant="outlined" />
                     {/*<FormHelperText>Help!</FormHelperText>*/}
                   </FormControl>
