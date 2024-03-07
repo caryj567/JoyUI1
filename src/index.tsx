@@ -10,7 +10,6 @@ ReactDOM.createRoot(document.querySelector("#root")!).render(
       <CssVarsProvider>
         {/*<Demo />*/}
          <Center />
-        <Center />
       </CssVarsProvider>
     </StyledEngineProvider>
   </React.StrictMode>
