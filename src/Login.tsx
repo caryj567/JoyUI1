@@ -23,7 +23,9 @@ export default function BasicButtons()
                     <Input placeholder="Password" name="Name" type="tel" autoComplete="on" autoFocus fullWidth defaultValue="" variant="outlined" />
                   </FormControl>
                 <Button sx={{width:300, mx:"auto", py:2, px: 3}}>Log in</Button>
-                <Typography justify="center" sx={{mx:"auto", py:2}}>Forgot Password</Typography>
+                <Typography justify="center" sx={{mx:"auto", py:2}}>
+                    <p>Forgot Password</p>
+                </Typography>
             </Sheet>
         </Box>
     
