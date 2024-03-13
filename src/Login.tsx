@@ -24,7 +24,7 @@ export default function BasicButtons()
                   </FormControl>
                 <Button sx={{width:300, mx:"auto", py:2, px: 3}}>Log in</Button>
                 <Typography justify="center" sx={{mx:"auto", py:2}}>
-                    <p>Forgot Password</p>
+                    <h1>Forgot Password</h1>
                 </Typography>
             </Sheet>
         </Box>
