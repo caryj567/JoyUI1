@@ -15,15 +15,18 @@ export default function BasicButtons()
     
         <Box alignItems="center">
             <Sheet color="primary" variant="soft" sx={{width: 350, mx:"auto", my:"auto"}}>
-                <Typography level="h2" sx={{mx:"auto", py:2}}>Submit Feedback</Typography>
+                <Typography level="h4" sx={{mx:"auto", py:2}}>Welcome to BoardX</Typography>
                 <FormControl id="Id" required size="sm" color="primary">
-                    <Input placeholder="Feedback here" name="Name" type="tel" autoComplete="on" autoFocus fullWidth defaultValue="" variant="outlined" />
+                    <Input placeholder="Email" name="Name" type="tel" autoComplete="on" autoFocus fullWidth defaultValue="" variant="outlined" />
                   </FormControl>
-                {/*<Typography sx={{mx:"auto", py:2}}>+ Upload Attachment</Typography> */}
-                <Button sx={{width:300, mx:"auto", py:2, px: 3}}>Submit</Button>
-                <Typography sx={{mx:"auto", py:2}}>Cancel</Typography>
+                <FormControl id="Id" required size="sm" color="primary">
+                    <Input placeholder="Password" name="Name" type="tel" autoComplete="on" autoFocus fullWidth defaultValue="" variant="outlined" />
+                  </FormControl>
+                <Button sx={{width:300, mx:"auto", py:2, px: 3}}>Log in</Button>
+                <Typography sx={{mx:"auto", py:2}}>Forgot Password</Typography>
             </Sheet>
         </Box>
     
         );
 }
+
