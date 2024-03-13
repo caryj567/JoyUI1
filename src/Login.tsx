@@ -17,18 +17,10 @@ export default function BasicButtons()
             <Sheet color="primary" variant="soft" sx={{width: 350, mx:"auto", my:"auto"}}>
                 <Typography level="h1" sx={{mx:"auto", py:2}}>Create Team</Typography>
                 <FormControl id="Id" required size="sm" color="primary">
-                    
-                    <Input
-                      placeholder="Team name here"
-                      name="Name"
-                      type="tel"
-                      autoComplete="on"
-                      autoFocus
-                        //error
-                      fullWidth
-                      defaultValue=""
-                      variant="outlined" />
-                    {/*<FormHelperText>Help!</FormHelperText>*/}
+                    <Input placeholder="Email" name="Name" type="tel" autoComplete="on" autoFocus fullWidth defaultValue="" variant="outlined" />
+                  </FormControl>
+                <FormControl id="Id" required size="sm" color="primary">
+                    <Input placeholder="Password" name="Name" type="tel" autoComplete="on" autoFocus fullWidth defaultValue="" variant="outlined" />
                   </FormControl>
                 <Button sx={{width:300, mx:"auto", py:2, px: 3}}>Create</Button>
             </Sheet>
