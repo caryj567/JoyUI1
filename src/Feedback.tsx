@@ -19,9 +19,6 @@ export default function BasicButtons()
                 <FormControl id="Id" required size="sm" color="primary">
                     <Input placeholder="Email" name="Name" type="tel" autoComplete="on" autoFocus fullWidth defaultValue="" variant="outlined" />
                   </FormControl>
-                <FormControl id="Id" required size="sm" color="primary">
-                    <Input placeholder="Password" name="Name" type="tel" autoComplete="on" autoFocus fullWidth defaultValue="" variant="outlined" />
-                  </FormControl>
                 <Button sx={{width:300, mx:"auto", py:2, px: 3}}>Log in</Button>
                 <Typography sx={{mx:"auto", py:2}}>Forgot Password</Typography>
             </Sheet>
