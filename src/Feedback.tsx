@@ -15,13 +15,21 @@ export default function BasicButtons()
     
         <Box alignItems="center">
             <Sheet color="primary" variant="soft" sx={{width: 350, mx:"auto", my:"auto"}}>
-                <Typography level="h2" sx={{mx:"auto", py:2}}>Submit Feedback</Typography>
-                <FormControl id="Id" required size="sm" color="primary">
-                    <Input placeholder="Feedback here" name="Name" type="tel" autoComplete="on" autoFocus fullWidth defaultValue="" variant="outlined" />
-                  </FormControl>
+                <div style={{display:'flex', alignItems:'center', justifyContent:'center'}}>
+                    <Typography level="h2" sx={{mx:"auto", py:2}}>Submit Feedback</Typography>
+                </div>
+                <div style={{display:'flex', alignItems:'center', justifyContent:'center'}}>
+                    <FormControl id="Id" required size="sm" color="primary" style={{width:300, height:100}}>
+                        <Input placeholder="Feedback here" name="Name" type="tel" autoComplete="on" autoFocus fullWidth defaultValue="" variant="outlined" />
+                      </FormControl>
+                </div>
                 <Typography sx={{mx:"auto", py:2}}>+ Upload Attachment</Typography>
-                <Button sx={{width:300, mx:"auto", py:2, px: 3}}>Submit</Button>
-                <Typography sx={{mx:"auto", py:2}}>Cancel</Typography>
+                <div style={{display:'flex', alignItems:'center', justifyContent:'center'}}>
+                    <Button sx={{width:250, mx:"auto", py:2, px: 3}}>Submit</Button>
+                </div>
+                <div style={{display:'flex', alignItems:'center', justifyContent:'center'}}>
+                    <Typography sx={{mx:"auto", py:2}}>Cancel</Typography>
+                </div>
             </Sheet>
         </Box>
     
