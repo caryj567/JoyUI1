@@ -14,8 +14,10 @@ export default function BasicButtons()
     return (
     
         <Box alignItems="center">
-            <Sheet color="primary" variant="soft" style={{display:'flex', alignItems:'center', justifyContent:'center'}} sx={{width: 350, mx:"auto", my:"auto"}}>
-                <Typography level="h1" sx={{mx:"auto", py:2}}>Create Room</Typography>
+            <Sheet color="primary" variant="soft"  sx={{width: 350, mx:"auto", my:"auto"}}>
+                <div style={{display:'flex', alignItems:'center', justifyContent:'center'}}>
+                    <Typography level="h1" sx={{mx:"auto", py:2}}>Create Room</Typography>
+                </div>
                 <FormControl id="Id" required size="sm" color="primary">
                     <Typography sx={{mx:"auto", py:2}}>Room name</Typography>
                     <Input
