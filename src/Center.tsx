@@ -28,6 +28,7 @@ export default function BasicButtons()
                       autoFocus
                         //error
                       //fullWidth
+                        style={{width:100}}
                       defaultValue=""
                       variant="outlined" />
                     {/*<FormHelperText>Help!</FormHelperText>*/}
