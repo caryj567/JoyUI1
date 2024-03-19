@@ -15,9 +15,7 @@ export default function BasicButtons()
     
         <Box alignItems="center">
             <Sheet color="primary" variant="soft" sx={{width: 350, mx:"auto", my:"auto"}}>
-                <div style={{display:'flex', alignItems:'center', justifyContent:'center'}}>
-                    <Typography level="h4" sx={{mx:"auto", py:2}}>Welcome to BoardX</Typography>
-                </div>
+                <Typography level="h4" sx={{mx:"auto", py:2}}>Welcome to BoardX</Typography>
                 <div style={{display:'flex', alignItems:'center', justifyContent:'center'}}>
                     <FormControl id="Id" required size="sm" color="primary" style={{width:250}}>
                         <Input placeholder="Email" name="Name" type="tel" autoComplete="on" autoFocus fullWidth defaultValue="" variant="outlined" />
