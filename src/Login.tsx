@@ -22,6 +22,8 @@ export default function BasicButtons()
                     <FormControl id="Id" required size="sm" color="primary" style={{width:250}}>
                         <Input placeholder="Email" name="Name" type="tel" autoComplete="on" autoFocus fullWidth defaultValue="" variant="outlined" />
                       </FormControl>
+                </div>
+                <div style={{display:'flex', alignItems:'center', justifyContent:'center'}}>
                     <FormControl id="Id" required size="sm" color="primary" style={{width:250}}>
                         <Input placeholder="Password" name="Name" type="tel" autoComplete="on" autoFocus fullWidth defaultValue="" variant="outlined" />
                       </FormControl>
@@ -29,7 +31,9 @@ export default function BasicButtons()
                 <div style={{display:'flex', alignItems:'center', justifyContent:'center'}}>
                     <Button sx={{width:250, mx:"auto", py:2, px: 3}}>Log in</Button>
                 </div>
-                <Typography sx={{mx:"auto", py:2}}>Forgot Password</Typography>
+                <div style={{display:'flex', alignItems:'center', justifyContent:'center'}}>
+                    <Typography sx={{mx:"auto", py:2}}>Forgot Password</Typography>
+                </div>
             </Sheet>
         </Box>
     
