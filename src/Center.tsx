@@ -18,6 +18,7 @@ export default function BasicButtons()
                 <div style={{display:'flex', alignItems:'center', justifyContent:'center'}}>
                     <Typography level="h1" sx={{mx:"auto", py:2}}>Create Team</Typography>
                 </div>
+                <div style={{display:'flex', alignItems:'center', justifyContent:'center'}}>
                 <FormControl id="Id" required size="sm" color="primary">
                     
                     <Input
@@ -28,13 +29,14 @@ export default function BasicButtons()
                       autoFocus
                         //error
                       //fullWidth
-                        style={{width:100}}
+                        style={{width:250}}
                       defaultValue=""
                       variant="outlined" />
                     {/*<FormHelperText>Help!</FormHelperText>*/}
                   </FormControl>
+                </div>
                 <div style={{display:'flex', alignItems:'center', justifyContent:'center'}}>
-                    <Button sx={{width:300, mx:"auto", py:2, px: 3}}>Create</Button>
+                    <Button sx={{width:250, mx:"auto", py:2, px: 3}}>Create</Button>
                 </div>
             </Sheet>
         </Box>
