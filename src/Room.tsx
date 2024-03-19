@@ -15,9 +15,7 @@ export default function BasicButtons()
     
         <Box alignItems="center">
             <Sheet color="primary" variant="soft"  sx={{width: 350, mx:"auto", my:"auto"}}>
-                <div style={{display:'flex', alignItems:'center', justifyContent:'center'}}>
-                    <Typography level="h1" sx={{mx:"auto", py:2}}>Create Room</Typography>
-                </div>
+                <Typography level="h1" sx={{mx:"auto", py:2}}>Create Room</Typography>
                 <FormControl id="Id" required size="sm" color="primary">
                     <Typography sx={{mx:"auto", py:2}}>Room name</Typography>
                     <Input
@@ -29,6 +27,7 @@ export default function BasicButtons()
                         //error
                       fullWidth
                       defaultValue=""
+                      style={{width:175}}
                       variant="outlined" />
                     {/*<FormHelperText>Help!</FormHelperText>*/}
                   </FormControl>
