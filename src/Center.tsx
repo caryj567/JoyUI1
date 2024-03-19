@@ -27,7 +27,7 @@ export default function BasicButtons()
                       autoComplete="on"
                       autoFocus
                         //error
-                      fullWidth
+                      //fullWidth
                       defaultValue=""
                       variant="outlined" />
                     {/*<FormHelperText>Help!</FormHelperText>*/}
