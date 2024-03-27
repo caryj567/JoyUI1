@@ -18,6 +18,10 @@ export default function BasicButtons()
                 <div style={{display:'flex', alignItems:'left', justifyContent:'left'}}>
                     <Button sx={{width:100, mx:"auto", py:2, px: 3}}>Menu</Button>
                     <Button sx={{width:100, mx:"auto", py:2, px: 3}}>size1</Button>
+                    <Button sx={{width:100, mx:"auto", py:2, px: 3}}>size2</Button>
+                    <Button sx={{width:100, mx:"auto", py:2, px: 3}}>size3</Button>
+                    <Button sx={{width:100, mx:"auto", py:2, px: 3}}>eraser</Button>
+                    <Button sx={{width:100, mx:"auto", py:2, px: 3}}>exit</Button>
                 </div>
             </Sheet>
         </Box>
