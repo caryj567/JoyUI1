@@ -15,8 +15,9 @@ export default function BasicButtons()
     
         <Box alignItems="center">
             <Sheet color="primary" variant="soft" sx={{width: 350, mx:"auto", my:"auto"}}>
-                <div style={{display:'flex', alignItems:'center', justifyContent:'center'}}>
-                    <Button sx={{width:250, mx:"auto", py:2, px: 3}}>Log in</Button>
+                <div style={{display:'flex', alignItems:'left', justifyContent:'left'}}>
+                    <Button sx={{width:100, mx:"auto", py:2, px: 3}}>Menu</Button>
+                    <Button sx={{width:100, mx:"auto", py:2, px: 3}}>size1</Button>
                 </div>
             </Sheet>
         </Box>
