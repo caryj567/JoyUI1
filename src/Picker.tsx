@@ -16,12 +16,12 @@ export default function BasicButtons()
         <Box alignItems="center">
             <Sheet color="primary" variant="soft" sx={{width: 350, mx:"auto", my:"auto"}}>
                 <div style={{display:'flex', alignItems:'left', justifyContent:'left'}}>
-                    <Button sx={{width:100, mx:"auto", py:2, px: 3}}>Menu</Button>
-                    <Button sx={{width:100, mx:"auto", py:2, px: 3}}>size1</Button>
-                    <Button sx={{width:100, mx:"auto", py:2, px: 3}}>size2</Button>
-                    <Button sx={{width:100, mx:"auto", py:2, px: 3}}>size3</Button>
-                    <Button sx={{width:100, mx:"auto", py:2, px: 3}}>eraser</Button>
-                    <Button sx={{width:100, mx:"auto", py:2, px: 3}}>exit</Button>
+                    <Button sx={{width:"auto", mx:"auto", py:0, px: 3}}>Menu</Button>
+                    <Button sx={{width:"auto", mx:"auto", py:0, px: 3}}>size1</Button>
+                    <Button sx={{width:"auto", mx:"auto", py:2, px: 3}}>size2</Button>
+                    <Button sx={{width:"auto", mx:"auto", py:2, px: 3}}>size3</Button>
+                    <Button sx={{width:"auto", mx:"auto", py:2, px: 3}}>eraser</Button>
+                    <Button sx={{width:"auto", mx:"auto", py:2, px: 3}}>exit</Button>
                 </div>
             </Sheet>
         </Box>
