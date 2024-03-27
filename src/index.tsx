@@ -6,6 +6,7 @@ import Center from './Center';
 import Login from './Login';
 import Feedback from './Feedback';
 import Room from './Room';
+import color from './color';
 import StepsSlider from './component2';
 
 ReactDOM.createRoot(document.querySelector("#root")!).render(
@@ -17,6 +18,7 @@ ReactDOM.createRoot(document.querySelector("#root")!).render(
         <Login />
         <Feedback />
         <Room />
+        <color />
         <StepsSlider />
       </CssVarsProvider>
     </StyledEngineProvider>
