@@ -1,4 +1,5 @@
 import * as React from 'react';
+import Popup from 'reactjs-popup'
 import Button from '@mui/joy/Button';
 import Box from '@mui/joy/Box';
 import Sheet from '@mui/joy/Sheet';
@@ -22,7 +23,7 @@ export default function BasicButtons()
                     <Button sx={{width:"auto", mx:"auto", py:0, px: 0}}>size2</Button>
                     <Button sx={{width:"auto", mx:"auto", py:0, px: 0}}>size3</Button>
                     <Button sx={{width:"auto", mx:"auto", py:0, px: 0}}>eraser</Button>
-                    <Button sx={{width:"auto", mx:"auto", py:0, px: 0}}>X</Button>
+                    <Button sx={{width:"auto", mx:"auto", py:0, px: 1}}>X</Button>
                 </div>
             </Sheet>
         </Box>
