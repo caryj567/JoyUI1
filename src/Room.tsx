@@ -35,7 +35,7 @@ export default function BasicButtons()
                   </FormControl>
                     </div>
                 <div style={{display:'flex', alignItems:'right', justifyContent:'right'}}>
-                    <AnchorLink href="#createteam">
+                    <AnchorLink>
                         <Button sx={{width:100, mx:"auto", py:2, px: 3}}>Create</Button>
                     </AnchorLink>
                 </div>
