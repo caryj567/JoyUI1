@@ -31,7 +31,7 @@ export default function BasicButtons()
                       variant="outlined" />
                     {/*<FormHelperText>Help!</FormHelperText>*/}
                   </FormControl>
-                <div style={{display:'flex', alignItems:'center', justifyContent:'right'}}>
+                <div style={{display:'flex', alignItems:'right', justifyContent:'right'}}>
                     <Button sx={{width:100, mx:"auto", py:2, px: 3}}>Create</Button>
                 </div>
             </Sheet>
