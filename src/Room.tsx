@@ -16,7 +16,6 @@ export default function BasicButtons()
         <Box alignItems="center">
             <Sheet color="primary" variant="soft"  sx={{width: 350, mx:"auto" my:"auto"}}>
                 <Typography level="h1" sx={{py:2}}>Create Room</Typography>
-                <div style={{display:'flex', alignItems:'right', justifyContent:'right'}}>
                 <FormControl id="Id" required size="sm" color="primary">
                     <Typography sx={{mx:"auto", py:2}}>Room name</Typography>
                     <Input
@@ -32,7 +31,6 @@ export default function BasicButtons()
                       variant="outlined" />
                     {/*<FormHelperText>Help!</FormHelperText>*/}
                   </FormControl>
-                    </div>
                 <div style={{display:'flex', alignItems:'right', justifyContent:'right'}}>
                     <Button sx={{width:100, mx:"auto", py:2, px: 3}}>Create</Button>
                 </div>
