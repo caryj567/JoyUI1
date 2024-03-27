@@ -11,6 +11,7 @@ import Input from '@mui/joy/Input'
 
 export default function BasicButtons() 
 {
+    const [popUpMenu, setPopUpMenu] = React.useState(false);
     return (
     
         <Box alignItems="center">
@@ -21,7 +22,7 @@ export default function BasicButtons()
                     <Button sx={{width:"auto", mx:"auto", py:0, px: 0}}>size2</Button>
                     <Button sx={{width:"auto", mx:"auto", py:0, px: 0}}>size3</Button>
                     <Button sx={{width:"auto", mx:"auto", py:0, px: 0}}>eraser</Button>
-                    <Button sx={{width:"auto", mx:"auto", py:0, px: 0}}>exit</Button>
+                    <Button sx={{width:"auto", mx:"auto", py:0, px: 0}}>X</Button>
                 </div>
             </Sheet>
         </Box>
