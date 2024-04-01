@@ -36,7 +36,9 @@ export default function BasicButtons()
                   </FormControl>
                 </div>
                 <div style={{display:'flex', alignItems:'center', justifyContent:'center'}}>
-                    <Button sx={{width:250, mx:"auto", py:2, px: 3}}>Create</Button>
+                    <a href="#top">
+                        <Button sx={{width:250, mx:"auto", py:2, px: 3}}>Create</Button>
+                    </a>
                 </div>
             </Sheet>
         </Box>
