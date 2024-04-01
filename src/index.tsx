@@ -19,7 +19,6 @@ ReactDOM.createRoot(document.querySelector("#root")!).render(
         <Feedback />
         <Room />
         <Picker />
-        <StepsSlider />
       </CssVarsProvider>
     </StyledEngineProvider>
   </React.StrictMode>
