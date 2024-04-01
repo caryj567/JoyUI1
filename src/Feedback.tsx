@@ -27,7 +27,9 @@ export default function BasicButtons()
                     <Typography sx={{mx:"auto", py:2}}>+ Upload Attachment</Typography>
                 </div>
                 <div style={{display:'flex', alignItems:'center', justifyContent:'center'}}>
-                    <Button sx={{width:250, mx:"auto", py:2, px: 3}}>Submit</Button>
+                    <a href="#top">
+                        <Button sx={{width:250, mx:"auto", py:2, px: 3}}>Submit</Button>
+                    </a>
                 </div>
                 <div style={{display:'flex', alignItems:'center', justifyContent:'center'}}>
                     <Typography sx={{mx:"auto", py:2}}>Cancel</Typography>
