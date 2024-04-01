@@ -14,7 +14,7 @@ export default function BasicButtons()
     return (
     
         <Box alignItems="center">
-            <Sheet color="primary" variant="soft" sx={{width: 350, mx:"auto", my:"auto"}}>
+            <Sheet color="red" variant="soft" sx={{width: 350, mx:"auto", my:"auto"}}>
                 <div style={{display:'flex', alignItems:'center', justifyContent:'center'}}>
                     <Typography level="h1" sx={{mx:"auto", py:2}}>Create Team</Typography>
                 </div>
