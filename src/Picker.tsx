@@ -14,13 +14,21 @@ import { styled } from '@mui/system';
 
 export default function BasicButtons() 
 {
-    const [popUpMenu, setPopUpMenu] = React.useState(true);
+    export default function SimplePopup() {
+  const [anchor, setAnchor] = React.useState<null | HTMLElement>(null);
+
+  const handleClick = (event: React.MouseEvent<HTMLElement>) => {
+    setAnchor(anchor ? null : event.currentTarget);
+  };
+
+  const open = Boolean(anchor);
+  const id = open ? 'simple-popup' : undefined;
     return (
     
         <Box alignItems="center">
             <Sheet color="primary" variant="soft" sx={{width: 350, mx:"auto", my:"auto"}}>
                 <div style={{display:'flex', alignItems:'left', justifyContent:'left'}}>
-                    <Button sx={{width:"auto", mx:"auto", py:0, px: 0}} onClick={() => setPopUpMenu(!popUpMenu)} >Menu</Button>
+                    <Button sx={{width:"auto", mx:"auto", py:0, px: 0}} onClick={handleClick()}>Menu</Button>
                     <Button sx={{width:"auto", mx:"auto", py:0, px: 0}}>size1</Button>
                     <Button sx={{width:"auto", mx:"auto", py:0, px: 0}}>size2</Button>
                     <Button sx={{width:"auto", mx:"auto", py:0, px: 0}}>size3</Button>
