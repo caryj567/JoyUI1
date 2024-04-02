@@ -27,7 +27,7 @@ export default function BasicButtons()
         <Box alignItems="center">
             <Sheet color="primary" variant="soft" sx={{width: 350, mx:"auto", my:"auto"}}>
                 <div style={{display:'flex', alignItems:'left', justifyContent:'left'}}>
-                    <Button sx={{width:"auto", mx:"auto", py:0, px: 0}} onClick={handleClick()}>Menu</Button>
+                    <Button sx={{width:"auto", mx:"auto", py:0, px: 0}} onClick={handleClick}>Menu</Button>
                     <Button sx={{width:"auto", mx:"auto", py:0, px: 0}}>size1</Button>
                     <Button sx={{width:"auto", mx:"auto", py:0, px: 0}}>size2</Button>
                     <Button sx={{width:"auto", mx:"auto", py:0, px: 0}}>size3</Button>
