@@ -28,7 +28,7 @@ export default function BasicButtons()
                 </div>
                 <div style={{display:'flex', alignItems:'center', justifyContent:'center'}}>
                     <a href="#top">
-                        <Button style={{color:'black'}} sx={{width:250, mx:"auto", py:2, px: 3}}>Submit</Button>
+                        <Button style={{color:'white'}} sx={{width:250, mx:"auto", py:2, px: 3}}>Submit</Button>
                     </a>
                 </div>
                 <div style={{display:'flex', alignItems:'center', justifyContent:'center'}}>
