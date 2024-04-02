@@ -14,7 +14,6 @@ import { styled } from '@mui/system';
 
 export default function BasicButtons() 
 {
-    export default function SimplePopup() {
   const [anchor, setAnchor] = React.useState<null | HTMLElement>(null);
 
   const handleClick = (event: React.MouseEvent<HTMLElement>) => {
